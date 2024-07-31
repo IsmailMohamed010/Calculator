@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home">
+        <div class="body_calc">
+            <div class="screen" id="scr">
+
+            </div>
+            <div class="btn">
+                <div class="row1">
+                    <button class="btn_calc" onclick="AC()" id="ac">AC</button>
+                    <button class="btn_calc" onclick="DC()" id="de">DE</button>
+                    <button class="btn_calc" onclick="Dot()" id=".">.</button>
+                    <button class="btn_calc" onclick="op('/')" id="devide">/</button>
+                </div>
+                <div class="row2">
+                    <button class="btn_calc" onclick="add_num('7')" id="7">7</button>
+                    <button class="btn_calc" onclick="add_num('8')" id="8">8</button>
+                    <button class="btn_calc" onclick="add_num('9')" id="9">9</button>
+                    <button class="btn_calc" onclick="op('*')" id="*">*</button>
+                </div>
+                <div class="row3">
+                    <button class="btn_calc" onclick="add_num('4')"  id="4">4</button>
+                    <button class="btn_calc" onclick="add_num('5')" id="5">5</button>
+                    <button class="btn_calc" onclick="add_num('6')" id="6">6</button>
+                    <button class="btn_calc" onclick="op('-')" id="-">-</button>
+                </div>
+                <div class="row4">
+                    <button class="btn_calc" onclick="add_num(1)" id="1">1</button>
+                    <button class="btn_calc" onclick="add_num(2)" id="2">2</button>
+                    <button class="btn_calc" onclick="add_num(3)" id="3">3</button>
+                    <button class="btn_calc" onclick="op('+')" id="+">+</button>
+                </div>
+                <div class="row5">
+                    <button class="btn_calc" onclick="add_num('0')" id="0">0</button>
+                    <button class="btn_calc" onclick="add_num('00')" id="00">00</button>
+                    <button onclick="res()" id="equal">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Logic.js"></script>
+</html>
